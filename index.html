@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Final Project</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<h1>Let's Create an ID Card!</h1>
+<div class="container">
+<label class="container" for="firstName">First Name:</label><br>
+</div>
+<div class="container">
+<input type="text" id="firstName" name="firstName"/><br>
+</div>
+<div class="container">
+<label for="lastName">Last Name:</label><br>
+</div>
+<div class="container">
+<input type="text" id="lastName" name="lastName"/><br>
+</div>
+<div class="container">
+<label for="age">Age:</label><br>
+</div>
+<div class="container">
+<input type="text" id="age" name="age"/><br>
+</div>
+<div class="container">
+<label for="phoneNumber">Phone Number:</label><br>
+</div>
+<div class="container">
+<input type="text" id="phoneNumber" name="phoneNumber">
+</div><br>
+<div class="container">
+<label for="address">Address:</label><br>
+</div>
+<div class="container">
+<input for="address" id="address" name="address"/><br>
+</div>
+<div class="container">
+<button class="btn btn-light" type="button" onclick="idCard()"><strong>Get ID Card</strong></button>
+</div>
+</form> 
+
+
+
+<div class="container">
+<div id="idCard">
+
+<img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+<p id="postFullName"></p>
+
+<p id="postAge"></p>
+
+<p id="postPhoneNumber"></p>
+
+<p id="postAddress"></p>
+
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
