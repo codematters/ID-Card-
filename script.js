@@ -19,9 +19,4 @@ function idCard() {
     
     document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
     document.getElementById("postAddress").innerHTML = address;
-    
-    
-    
-  
-  
-  }
+ }
