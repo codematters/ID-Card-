@@ -1,6 +1,6 @@
 body {
   background: #eedcc7;
-  font-family: poppins;
+  font-family: "Poppins";
 }
 
 header {
@@ -128,21 +128,21 @@ img {
   font-size: 1.75em;
   float: right;
   margin-right: 5rem;
-  font-family: sans-serif;
+  font-family: "Poppins";
   }
   
 #postAge {
   margin-top: 8.3rem;
   margin-left: .83rem;
-  font-family: sans-serif;
+  font-family: "Poppins";
 }
   
 #postPhoneNumber {
   margin-left: .83rem;
-  font-family: sans-serif;
+  font-family: "Poppins";
 }
   
 #postAddress {
   margin-left: .83rem;
-  font-family: sans-serif;
+  font-family: "Poppins";
 }
