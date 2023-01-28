@@ -99,6 +99,7 @@ label[for="phoneNumber"] {
 }
   
 label[for="address"] {
+  font-style: normal;
   font-weight: bold;
   color: black;
 }
@@ -124,21 +125,17 @@ img {
   font-size: 1.75em;
   float: right;
   margin-right: 5rem;
-  font-family: "Poppins";
   }
   
 #postAge {
   margin-top: 8.3rem;
   margin-left: .83rem;
-  font-family: "Poppins";
 }
   
 #postPhoneNumber {
   margin-left: .83rem;
-  font-family: "Poppins";
 }
   
 #postAddress {
   margin-left: .83rem;
-  font-family: "Poppins";
 }
