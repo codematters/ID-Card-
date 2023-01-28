@@ -79,21 +79,25 @@ footer {
 }
   
 label[for="firstName"] {
+  font-style: normal;
   font-weight: bold;
   color: black;
 }
   
 label[for="lastName"] {
+  font-style: normal;
   font-weight: bold;
   color: black;
 }
   
 label[for="age"] {
+  font-style: normal;
   font-weight: bold;
   color: black;
 }
   
 label[for="phoneNumber"] {
+  font-style: normal;
   font-weight: bold;
   color: black;
 }
