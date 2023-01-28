@@ -1,3 +1,7 @@
+html {
+  font-size: 16px; /* default size set for rem. Example: 1rem = 16px */
+}
+
 body {
   background: #eedcc7;
   font-family: "Poppins";
@@ -7,7 +11,7 @@ h1 {
   display: flex;
   justify-content: center;
   color: black;
-  padding-top: 30px;
+  padding-top: 1.875rem;
   }
 
 button {
@@ -118,8 +122,8 @@ img {
   background-color: whitesmoke;
   border: 0.3rem solid whitesmoke;
   border-radius: 2rem;
-  /*height: 12rem;
-  width: 24rem;*/
+  /* height: 12rem;
+  width: 24rem; */
   padding: 0 1rem 1rem 0;
   margin-top: 5.3rem;
   margin-bottom: 8rem;
