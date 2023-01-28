@@ -1,143 +1,148 @@
 body {
-  background: linear-gradient(
-    #808080,
-    #3fada8
-  );
-;}
-  
-  h1 {
-    display:flex;
-    justify-content: center;
-    color: white;
-    padding-top: 30px;
+  background: #eedcc7;
+  font-family: poppins;
+}
 
+header {
+ outline: #c26760;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding-top: 30px;
   }
 
-  button {
-    margin-top: 100px;
-    background: white;
-   
-    
-  }
- .container {
-   display: flex;
-   justify-content: center;
+button {
+  background-color:#c26760;
+  color: white;
+  border: solid white;
+  border-radius: 1.5rem; 
+  padding: 1.2rem 2rem 1.2rem 2rem;
+  box-shadow: 0.125rem 0.125rem  0.125rem 0.0625rem rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #ad4a42;
+  color: white;
+  border: solid  white;
+}
+
+footer {
+  margin-bottom: -3rem;
+  padding: 2rem 0 0rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
  }
 
-  #firstName {   
-    margin-top:5px;
-    margin-bottom:5px;
-  }
-  #firstName:hover{
-    background:#FFFF99;
+#firstName {   
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   }
   
-  #lastName {
-    margin-top:5px;
-    margin-bottom:5px; 
-  }
-  #lastName:hover{
-    background-color:#FFFF99;
+#firstName:hover{
+  background: #FFFF99;
   }
   
-  #age {
-    margin-top:5px;
-    margin-bottom:5px;
+#lastName {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem; 
   }
-  #age:hover{
-    background-color:#FFFF99;
-  }
+#lastName:hover{
+  background-color: #FFFF99;
+}
+ 
+#age {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+#age:hover{
+  background-color:#FFFF99;
+}
   
-  #phoneNumber {
-    margin-top:5px;
-    margin-bottom:5px;
-  }
-  #phoneNumber:hover {
-    background-color:#FFFF99;
-  }
+#phoneNumber {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
   
-  #address {
-    margin-top:5px;
-    margin-bottom: 20px;
-   
-  }
+#phoneNumber:hover {
+  background-color:#FFFF99;
+}
   
-  #address:hover {
-    background-color:#FFFF99;
-  }
+#address {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
   
-  label[for="firstName"] {
-    font-weight:bold;
-    color:black;
-  }
+#address:hover {
+  background-color: #FFFF99;
+}
   
-  label[for="lastName"] {
-    font-weight:bold;
-    color:black;
-  }
+label[for="firstName"] {
+  font-weight: bold;
+  color: black;
+}
   
-  label[for="age"] {
-    font-weight:bold;
-    color:black;
+label[for="lastName"] {
+  font-weight: bold;
+  color: black;
+}
   
-  }
+label[for="age"] {
+  font-weight: bold;
+  color: black;
+}
   
-  label[for="phoneNumber"] {
-    font-weight:bold;
-    color:black;
-  }
+label[for="phoneNumber"] {
+  font-weight: bold;
+  color: black;
+}
   
-  label[for="address"] {
-    font-weight:bold;
-    color:black;
-  }
+label[for="address"] {
+  font-weight: bold;
+  color: black;
+}
   
-  img {
-  
-  width: 90px;
-  
-  height: 90px;
-  
+img {
+  width: 6rem;
+  height: 6rem;
   float: left;
+}
   
+#idCard {
+  background-color: whitesmoke;
+  border: 0.3rem solid whitesmoke;
+  border-radius: 3.3rem;
+  height: 16rem;
+  width: 25rem;
+  margin-top: 5.3rem;
+  margin-bottom: 8rem;
+  box-shadow: 0.125rem 0.125rem  0.125rem 0.0625rem rgba(0,0,0,0.3);
+}
+  
+#postFullName{
+  font-size: 1.75em;
+  float: right;
+  margin-right: 5rem;
+  font-family: sans-serif;
   }
   
-  #idCard {
+#postAge {
+  margin-top: 8.3rem;
+  margin-left: .83rem;
+  font-family: sans-serif;
+}
   
-  background-color:   #f08080 ;
+#postPhoneNumber {
+  margin-left: .83rem;
+  font-family: sans-serif;
+}
   
-  border: 5px solid black;
-  
-  border-radius:40px;
-  
-  height: 14em;
-  
-  width: 25em;
-  
-  margin-top: 80px;
-  
-  margin-bottom:95px;
-  }
-  
-  #postFullName{
-    font-size: 1.75em;
-    float:right;
-    margin-right:60px;
-    font-family:sans-serif;
-  }
-  
-  #postAge {
-    margin-top:100px;
-    margin-left:10px;
-    font-family:sans-serif;
-  }
-  
-  #postPhoneNumber {
-    margin-left:10px;
-    font-family:sans-serif;
-  }
-  
-  #postAddress {
-    margin-left:10px;
-    font-family:sans-serif;
-  }
+#postAddress {
+  margin-left: .83rem;
+  font-family: sans-serif;
+}
