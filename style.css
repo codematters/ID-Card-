@@ -3,10 +3,6 @@ body {
   font-family: "Poppins";
 }
 
-header {
- outline: #c26760;
-}
-
 h1 {
   display: flex;
   justify-content: center;
